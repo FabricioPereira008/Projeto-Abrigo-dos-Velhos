@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Pagina Inicial</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="assets/img/people.svg" alt="">
+        </div>
+        <div class="form">
+            <form action="a">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastro do Interno</h1>
+                    </div>
+                    <div class="return-button">
+                        <button><a href="">Retornar</a></button>
+                    </div>
+                </div>
+                <div class="int-group">
+                    <h2>Informações do Interno</h2>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="name">Nome</label>
+                        <input id="name" type="text" name="name" placeholder="Digite o nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="age">Idade</label>
+                        <input id="age" type="text" name="age" placeholder="Digite a idade" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="medicines">Medicamentos</label>
+                        <input id="medicines" type="text" name="medicines" placeholder="Digite os medicamentos" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="scholarity">Escolaridade</label>
+                        <input id="scholarity" type="text" name="scholarity" placeholder="Digite a escolaridade" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="plan">Plano Funerário</label>
+                        <input id="plan" type="text" name="plan" placeholder="Digite o plano funerário" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="sicknesss">Doenças pré existentes</label>
+                        <input id="sicknesss" type="text" name="sicknesss" placeholder="Digite as doenças" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="record">Relatório do idoso</label>
+                        <input id="record" type="text" name="record" placeholder="Digite o relatório" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="rgi">RG</label>
+                        <input id="rgi" type="text" name="rgi" placeholder="Digite o RG" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="cpfi">CPF</label>
+                        <input id="cpfi" type="text" name="cpfi" placeholder="Digite o CPF" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="sus">Cartão SUS</label>
+                        <input id="sus" type="text" name="sus" placeholder="Digite o cartão do SUS" required>
+                    </div>
+
+                    <div class="obj-inputs">
+                        <div class="obj-title">
+                            <h6>Gênero</h6>
+                        </div>
+                        <div class="obj-group">
+                            <div class="obj-input">
+                                <input type="radio" id="female" name="gender">
+                                <label for="female">Feminino</label>
+                            </div>
+    
+                            <div class="obj-input">
+                                <input type="radio" id="male" name="gender">
+                                <label for="male">Masculino</label>
+                            </div>
+
+                            <div class="obj-input">
+                                <input type="radio" id="other" name="gender">
+                                <label for="other">Outro</label>
+                            </div>
+                        </div>
+
+                        <div class="obj-title">
+                            <h6>Aposentadoria</h6>
+                        </div>
+                        <div class="obj-group">
+                            <div class="obj-input">
+                                <input type="radio" id="loas" name="retirement">
+                                <label for="loas">Loas</label>
+                            </div>
+    
+                            <div class="obj-input">
+                                <input type="radio" id="inss" name="retirement">
+                                <label for="inss">Inss</label>
+                            </div>
+
+                            <div class="obj-input">
+                                <input type="radio" id="pensioner" name="retirement">
+                                <label for="pensioner">Pensionista</label>
+                            </div>
+                        </div>
+
+                        <div class="obj-title">
+                            <h6>Estado Civil</h6>
+                        </div>
+                        <div class="obj-group">
+                            <div class="obj-input">
+                                <input type="radio" id="single" name="marital">
+                                <label for="single">Solteiro</label>
+                            </div>
+    
+                            <div class="obj-input">
+                                <input type="radio" id="widower" name="marital">
+                                <label for="widower">Viúvo</label>
+                            </div>
+
+                            <div class="obj-input">
+                                <input type="radio" id="divorced" name="marital">
+                                <label for="divorced">Divorciado</label>
+                            </div>
+                        </div>
+
+                        <div class="obj-title">
+                            <h6>Já foi internado no Sanatório</h6>
+                        </div>
+                        <div class="obj-group">
+                            <div class="obj-input">
+                                <input type="radio" id="yessan" name="sanatorium">
+                                <label for="yessan">Sim</label>
+                            </div>
+    
+                            <div class="obj-input">
+                                <input type="radio" id="nos" name="sanatorium">
+                                <label for="nosan">Não</label>
+                            </div>
+                        </div>
+
+                        <div class="obj-title">
+                            <h6>Condição de mobilidade</h6>
+                        </div>
+                        <div class="obj-group">
+                            <div class="obj-input">
+                                <input type="radio" id="wheelchair" name="mobility">
+                                <label for="wheelchair">Cadeirante</label>
+                            </div>
+    
+                            <div class="obj-input">
+                                <input type="radio" id="bedridden" name="mobility">
+                                <label for="bedridden">Acamado</label>
+                            </div>
+
+                            <div class="obj-input">
+                                <input type="radio" id="walker" name="mobility">
+                                <label for="walker">Anda</label>
+                            </div>
+
+                            <div class="obj-input">
+                                <input type="radio" id="othersmobility" name="mobility">
+                                <label for="othersmobility">Outros</label>
+                            </div>
+
+                            <div class="input-box-others">
+                                <input id="othersmobility" type="text" name="othersmobility" placeholder="Observação">
+                            </div>
+                        </div>
+
+                        <div class="obj-title">
+                            <h6>É lucido</h6>
+                        </div>
+                        <div class="obj-group">
+                            <div class="obj-input">
+                                <input type="radio" id="yeslucid" name="lucid">
+                                <label for="yeslucid">Sim</label>
+                            </div>
+    
+                            <div class="obj-input">
+                                <input type="radio" id="nolucid" name="lucid">
+                                <label for="nolucid">Não</label>
+                            </div>
+
+                            <div class="obj-input">
+                                <input type="radio" id="otherslucid" name="lucid">
+                                <label for="otherslucid">Outros</label>
+                            </div>
+
+                            <div class="input-box-others">
+                                <input id="otherslucid" type="text" name="otherslucid" placeholder="Observação">
+                            </div>
+                        </div>
+
+                        <div class="obj-title">
+                            <h6>Quer vir para o Abrigo</h6>
+                        </div>
+                        <div class="obj-group">
+                            <div class="obj-input">
+                                <input type="radio" id="yescome" name="come">
+                                <label for="yescome">Sim</label>
+                            </div>
+    
+                            <div class="obj-input">
+                                <input type="radio" id="nocome" name="come">
+                                <label for="nocome">Não</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="continue-button">
+                    <button><a href="$">Continuar</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
